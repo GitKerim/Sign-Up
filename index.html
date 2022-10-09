@@ -1,33 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign up</title>
-    <link rel="stylesheet" href="style.css ">
-</head>
-<body>
-
-<div class='image'>
-    <img class='bgimage' src="/Sign-Up/michal-janek-UMEMq3_X-Nw-unsplash (1).jpg" alt="Background image">
-    <div class='logo-track'>
-        <span class='name'>Explore Nature</span>
-        <img src="/Sign-Up/eco_FILL0_wght100_GRAD-25_opsz48.svg" alt="Logo" class='logo'>
+    <link rel="stylesheet" href="style.css " />
+  </head>
+  <body>
+    <div class="image">
+      <img
+        class="bgimage"
+        src="/Sign-Up/michal-janek-UMEMq3_X-Nw-unsplash (1).jpg"
+        alt="Background image"
+      />
+      <div class="logo-track">
+        <span class="name">Explore Nature</span>
+        <img
+          src="/Sign-Up/eco_FILL0_wght100_GRAD-25_opsz48.svg"
+          alt="Logo"
+          class="logo"
+        />
+      </div>
     </div>
-</div>
 
-<div class='form-container'>
-    <div class="form-header">
-        <div class='header-text'>
-        This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
-            Sign up now to get started.
-        
-            <div>You know you want to.</div></div>
+    <div class="form-container">
+      <div class="form-header">
+        <div class="header-text">
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. Sign up now
+          to get started.
+
+          <div>You know you want to.</div>
+        </div>
+      </div>
+      <form action="get">
+          <div class="form">
+            <div>
+                <label for="fname"></label>
+                <input type="text" name="firstname" id="fname">
+                <label for="lname"></label>
+                <input type="text" name="lastname" id="lname">
+            </div>
+            <div>
+                <label for="email"></label>
+                <input type="email" name="email" id="email">
+                <label for="phone"></label>
+                <input type="number" name="phone" id="phone">
+            </div>
+            <div>
+                <label for="pwd"></label>
+                <input type="password" name="pwd" id="pwd">
+                <label for="cpwd"></label>
+                <input type="password" name="cpwd" id="cpwd">
+            </div>
+          </div>
+          <div class="submit">
+            <button type='submit'></button>
+          </div>
+      </form>
     </div>
-    <div class="form"></div>
-    <div class="submit"></div>
-</div>
-
-</body>
+  </body>
 </html>
