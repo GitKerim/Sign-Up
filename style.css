@@ -53,9 +53,11 @@ body{
     width:70%;
     height: 100%;
     background-color: #616161;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 /* Form header */
-
 
 .form-header{
         width: 100%;
@@ -65,8 +67,8 @@ body{
 .header-text{
     height: 100%;
     font-size: 20px;
-    padding-top: 10px;
-    padding-left: 10px
+    margin-top: 5%;
+    margin-left: 5%;
 }
 /* Form and input containers */
 
@@ -79,35 +81,46 @@ body{
 }
 .inputs{
     display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100%;
-    flex-wrap: wrap;
-    align-items: flex-end;
 }
 .form-row{
     display: flex;
     width: 100%;
     gap: 10%;
     justify-content:flex-start;
-    margin-left: 10%;
 }
 .form-row div{
     display: flex;
     flex-direction: column; 
+    font-size: 12px;
+    font-style: italic;
+    gap: 2px;
+}
+.inputs-container{
+    height: 60%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+.inputs-container>p{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 15px;
 }
 .button-container{
     width:100%;
-    height:30%;
+    height:40%;
     background:#616161;
+    margin-top: auto;
 }
 .submit{
-    margin-left: 10%;
-}
-hr{ 
-    flex-basis: 100%; 
-    height: 0; 
-    margin: 0; 
-    border: 0; 
+    margin-left: 5%;
+    margin-top: 5%;
 }
 
 /* Input CSS */
