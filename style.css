@@ -70,23 +70,38 @@ body{
 }
 /* Form and input containers */
 
-
 .form{
     height: 70%;
     width: 100%;
     background-color: white;
+    display: flex;
+    flex-direction: column;
 }
-.submit{
-    height: 40%;
-    background:rgba(255,255,255, 0.8);
+.inputs{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    align-items: flex-end;
 }
 .form-row{
     display: flex;
-    gap: 30%; 
+    width: 100%;
+    gap: 10%;
+    justify-content:flex-start;
+    margin-left: 10%;
 }
 .form-row div{
     display: flex;
     flex-direction: column; 
+}
+.button-container{
+    width:100%;
+    height:30%;
+    background:#616161;
+}
+.submit{
+    margin-left: 10%;
 }
 hr{ 
     flex-basis: 100%; 
@@ -94,6 +109,7 @@ hr{
     margin: 0; 
     border: 0; 
 }
+
 /* Input CSS */
 
 
@@ -104,14 +120,7 @@ input, button{
     box-sizing: border-box;
     border: 1px solid #616161;
 }
-.inputs{
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    
-}
+
 
 
 @media screen and (min-width: 2000px) {
