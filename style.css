@@ -76,6 +76,13 @@ input, button{
     box-sizing: border-box;
     border: 1px solid #616161;
 }
+.form-row{
+    display: flex;
+}
+.form-row div{
+    display: flex;
+    flex-direction: column;
+}
 @media screen and (min-width: 2000px) {
     .image{
         width:20%;
