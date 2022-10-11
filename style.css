@@ -156,7 +156,7 @@ button{
     color: #2a3552;
     width: 200px;
     height: 40px;
-    border: px solid white;
+    border: non;
 }
 
 @media screen and (min-width: 2000px) {
