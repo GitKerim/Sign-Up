@@ -118,6 +118,7 @@ body{
     font-style: italic;
     font-weight: bold;
     margin-bottom: 15px;
+    color:#2a3552;
 }
 .button-container{
     width:100%;
@@ -147,6 +148,7 @@ input:focus{
     outline: none;
     border:1px solid #2a3552;
     box-shadow: 0 0 3px#2a3552;
+    padding-left: 4px;
     }
 button{
     background-color:#2a3552;
