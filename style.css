@@ -140,9 +140,8 @@ body{
 input{
     width: 200px;
     height: 30px;
-    padding: 0;
+    padding-left:4px ;
     margin: 0;
-    box-sizing: border-box;
     border: 1px solid #2a3552;
 }
 
@@ -150,7 +149,6 @@ input:focus{
     outline: none;
     border:1px solid #2a3552;
     box-shadow: 0 0 3px#2a3552;
-    padding-left: 4px;
     }
 button{
     background:#f9bb82;
